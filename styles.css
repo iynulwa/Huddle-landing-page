@@ -1,0 +1,266 @@
+:root {
+    --VeryPaleBlue: hsl(207, 100%, 98%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --LightRed: hsl(0, 100%, 63%);
+    --LightPink: hsl(321, 100%, 78%);
+    --Pink: hsl(322, 100%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0 3rem;
+    padding: 0 2rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid var(--LightPink);
+    border-radius: 2rem;
+    padding: 0.3rem 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Open Sans";
+}
+
+.Try-it-free {
+    font-size: smaller;
+    color: var(--LightPink);
+    box-shadow: var(--LightPink) 0px 1px 4px;
+}
+
+.Try-it-free:hover {
+    cursor: pointer;
+}
+
+#logo {
+    width: 8rem;
+    height: auto;
+}
+
+.Build-the-community {
+    padding-bottom: 0;
+}
+
+.Build-the-community > button {
+    margin-bottom: 6rem;
+}
+
+.Build-the-community > #mockup {
+    margin-bottom: 3rem;
+}
+
+.stats-box > img {
+    width: 2rem;
+    height: auto;
+}
+
+.stats-box > p {
+    color: rgba(0, 37, 46, 0.3);
+}
+
+.stats {
+    font-size: 4rem;
+}
+
+.started-for-free {
+    background-color: var(--Pink);
+    padding: 1rem 3rem;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    box-shadow: rgba(0, 37, 46, 0.3) 0px 3px 6px ;
+}
+
+.started-for-free:hover {
+    cursor: pointer;
+}
+
+section {
+    padding: 3.5rem;
+}
+
+img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.grow-together {
+    background-color: var(--VeryPaleBlue);
+}
+
+.your-users {
+    background-color: var(--VeryPaleBlue);
+}
+
+.contact {
+    background-color: var(--VeryDarkCyan);
+    color: white;
+}
+
+.ready-to-build > h2 {
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ready-to-build > button {
+    margin-bottom: 4rem;
+    background-color: var(--Pink);
+    padding: 1rem 3rem;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    box-shadow: rgba(0, 37, 46, 0.3) 0px 3px 6px;
+}
+
+h1 {
+    font-family: "Poppins";
+    color: var(--VeryDarkCyan);
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-family: "Poppins";
+    color: var(--VeryDarkCyan);
+}
+
+h3 {
+    text-align: left;
+    font-family: "Poppins";
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-family: "Open Sans";
+    margin-bottom: 3rem;
+}
+
+.left-align {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.headings {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info > p {
+    padding-top: 1rem;
+}
+
+.icons {
+    width: 2rem;
+    height: auto;
+}
+
+.logo-bottom {
+    background-color: white;
+}
+
+.input {
+    width: 90%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.submit {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--Pink);
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: white;
+    box-shadow: rgba(0, 37, 46, 0.3) 0px 3px 6px;
+    font-family: "Open Sans";
+    float: right;
+
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 800px) {
+
+    nav {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    section {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+
+    .first-paragraph {
+        width: 55%;
+        margin: auto;
+    }
+
+    #mockup {
+        width: 80%;
+        height: auto;
+    }
+
+    .header-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .stats-box {
+        width: 12rem;
+        height: auto;
+        display: inline-block;
+        margin: 4rem;
+    }
+
+    .lower {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .illustration {
+        width: 25rem;
+        height: auto;
+        display: inline-block;
+        margin: 4rem;
+        order: 1;
+    }
+
+    .information {
+        width: 30rem;
+        height: auto;
+        display: inline-block;
+        margin: 4rem;
+        text-align: left;
+    }
+
+    .right {
+        order: 2;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

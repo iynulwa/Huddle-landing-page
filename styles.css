@@ -163,23 +163,40 @@ p {
     margin-bottom: 1rem;
 }
 
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 .contact-info > p {
-    padding-top: 1rem;
+    margin-bottom: 0;
 }
 
 .icons {
-    width: 2rem;
+    width: 1.5rem;
     height: auto;
 }
 
+.huddle-info {
+    clear: both; 
+    display: flex;
+    flex-direction: column;
+}
+
 .logo-bottom {
-    background-color: white;
+    filter: brightness(0) invert(1);
+    width: 10rem;
+    height: auto;
+    margin-bottom: 1rem;
 }
 
 .input {
     width: 90%;
     border-radius: 0.5rem;
     padding: 1rem;
+    float: left;
 }
 
 .submit {
